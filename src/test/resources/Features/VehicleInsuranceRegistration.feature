@@ -36,7 +36,7 @@ Feature: Register a new Vehicle Insurance
 
     Examples: 
       | form              | send                 | firstname | lastname  | birthdate  | gender       | streetaddress | country | zipcode  | city    | occupation | hobbies              |
-      | enterinsurantdata | nextenterproductdata | Michele   | Kakishita | 08/29/1984 | genderfemale | Rua Teste     | Brazil  | 13202265 | Jundiai | Employee   | speeding;cliffdiving |
+      | enterinsurantdata | nextenterproductdata | Michele   | Kakishita | 02/11/1982 | genderfemale | Rua Teste     | Brazil  | 13213160 | Jundiai | Employee   | speeding;cliffdiving |
 
   Scenario Outline: Populate Product Data
     When user populates the <form>
@@ -76,4 +76,4 @@ Feature: Register a new Vehicle Insurance
 
     Examples: 
       | form      | send      | email           | phone       | username | password  | confirmpassword | message                 |
-      | sendquote | sendemail | teste@gmail.com | 11995664621 | username | Pass12345 | Pass12345       | Sending e-mail success! |
+      | sendquote | sendemail | teste@gmail.com | 11934567462 | username | Pass12345 | Pass12345       | Sending e-mail success! |
