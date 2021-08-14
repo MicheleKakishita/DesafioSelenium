@@ -212,8 +212,6 @@ public class VehicleInsuranceSteps extends TestBase {
 	            break;             
 	        default:
 	            fail("Invalid form " + formId);
-	            driver.close();
-	            break;
 		}
 
 	}
